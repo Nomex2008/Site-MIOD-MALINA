@@ -19,13 +19,44 @@ body {
     overflow: clip;
 }
 
-/*header*/
-.header {
+/*hero*/
+.hero {
+    position: relative;
 }
-
-/*main*/
-.main {
-    flex-grow: 1;
+.hero__container {
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+}
+.hero__header {
+}
+.hero__logo {
+}
+.hero__menu {
+}
+.menu {
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__link {
+}
+.hero__content {
+}
+.hero__title {
+}
+.hero__label {
+}
+.hero__button {
+}
+.hero__img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    object-fit: cover;
+    object-position: center;
 }
 
 /*footer*/
