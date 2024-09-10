@@ -1,22 +1,15 @@
+@import url('./fonts.css');
+
 /*main*/
 body {
-    font-family: "Plus Jakarta Sans", sans-serif;
-    color: var(--desc);
+    font-family: "Source Sans Pro", sans-serif;
+    color: #000;
 }
 [class*='__container'] {
-    width: 1230px;
+    width: 1054px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-}
-:root {
-	--link:-active: #4737ff;
-	--link:-unactive: #9a9ea6;
-	--heading: #181e4b;
-	--desc: #5e6282;
-	--primary: #4475f2;
-	--placeholder: #9c9c9c;
-	--border: #dedede;
 }
 .wrapper {
     min-height: 100%;
